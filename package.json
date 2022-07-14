@@ -1,0 +1,28 @@
+{
+  "name": "@dasdarki/axiox",
+  "version": "1.0.0",
+  "description": "Axoix is an enhancement for axios which adds features like simpler error handling.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm pack && npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolaryxDE/axiox.git"
+  },
+  "keywords": ["axios", "rest", "api", "axiox"],
+  "author": "Polaryx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PolaryxDE/axiox/issues"
+  },
+  "homepage": "https://github.com/PolaryxDE/axiox#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
